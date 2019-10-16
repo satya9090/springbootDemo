@@ -65,7 +65,7 @@
 						<span class="input-group-text"> <i class="fa fa-user"></i>
 						</span>
 					</div>
-					<input name="name" class="form-control" placeholder="Full name"
+					<input name="fullName" class="form-control" placeholder="Full name"
 						type="text" id="name">
 				</div>
 				<!-- form-group// -->
@@ -83,7 +83,7 @@
 						<span class="input-group-text"> <i class="fa fa-phone"></i>
 						</span>
 					</div>
-					<input name="number" class="form-control" placeholder="Phone number"
+					<input name="mobileNumber" class="form-control" placeholder="Phone number"
 						type="text" id="number">
 				</div>
 				<!-- form-group// -->
@@ -92,7 +92,7 @@
 						<span class="input-group-text"> <i class="fa fa-building"></i>
 						</span>
 					</div>
-					<select class="form-control" name="qualification" id="qualification">
+					<select class="form-control" name="highstQualification" id="qualification">
 						<option selected="">Qualification</option>
 						<option>Designer</option>
 						<option>Manager</option>
@@ -105,7 +105,7 @@
 						<span class="input-group-text"> <i class="fa fa-lock"></i>
 						</span>
 					</div>
-					<input class="form-control" placeholder="Collage Name" name="collagename" id="collagename"
+					<input class="form-control" placeholder="Collage Name" name="collage" id="collagename"
 						type="text">
 				</div>
 				<!-- form-group// -->
@@ -115,7 +115,7 @@
 						</span>
 					</div>
 					<input class="form-control" placeholder="Passing year"
-						type="text" name="passingyear" id="passingyear">
+						type="text" name="passingYear" id="passingyear">
 				</div>
 				<div class="form-group input-group">
 					<div class="input-group-prepend">
@@ -123,7 +123,7 @@
 						</span>
 					</div>
 					<input class="form-control" placeholder="Current Location"
-						type="text" name="Location" id="Location">
+						type="text" name="currentLocation" id="Location">
 				</div>
 				
 				<div class="form-group input-group">
@@ -150,7 +150,7 @@
 						</span>
 					</div>
 					<input class="form-control" placeholder="Skills"
-						type="text" name="skill" id="skill">
+						type="text" name="skills" id="skill">
 				</div>
 				<div class="form-group">
 					<button type="submit" class="btn btn-primary btn-block" id="">
