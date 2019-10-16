@@ -75,7 +75,7 @@
 						</span>
 					</div>
 					<input name="email" class="form-control" placeholder="Email address"
-						type="email" id="email">
+						type="email" id="">
 				</div>
 				<!-- form-group// -->
 				<div class="form-group input-group">
