@@ -1,11 +1,12 @@
 package com.example.demo.service;
 
-import org.springframework.stereotype.Service;
-
-import com.example.demo.model.StudentDetails;
+import com.example.demo.model.CandidateInformation;
+import com.example.demo.model.Talent_candidate_experience;
 
 
 public interface serviceInterface {
 
-	public StudentDetails saveDetails(StudentDetails details);
+	public CandidateInformation saveCandidateInformation(CandidateInformation information);
+	
+	public Talent_candidate_experience saveCandidateExperience(Talent_candidate_experience experience);
 }
